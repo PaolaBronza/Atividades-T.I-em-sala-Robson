@@ -13,7 +13,7 @@ int main(void){
 		printf("\naprovado!");
 	}
 	else if(num>5&&num<7){
-		printf("\nrecuperação!");
+		printf("\nrecuperaÃ§Ã£o!");
 	}
 	else{
 		printf("\nReprovado.");
