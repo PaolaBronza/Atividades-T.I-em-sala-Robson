@@ -12,10 +12,10 @@ int main(void){
 	scanf("%f",&altura);
 	
 	if(idade>=18&&altura>=1.60){
-		printf("\nVocê pode entrar!");
+		printf("\nVocÃª pode entrar!");
 	}
 	else if(idade<18||altura<1.60){
-		printf("\nDesculpe, você não atende aos requisitos de altura e(ou) idade para entrar.");
+		printf("\nDesculpe, vocÃª nÃ£o atende aos requisitos de altura e(ou) idade para entrar.");
 	}
 	return 0;
 }
