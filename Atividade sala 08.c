@@ -17,6 +17,6 @@ int main(void){
 	printf("Digite o valor de y2: ");
 	scanf("%f",&y2);
 	distancia=sqrt(pow((x2-x1),2)+pow((y2-y1),2));
-	printf("A dist‚ncia entre os pontos P1 e P2 È de: %f",distancia);
+	printf("A dist√¢ncia entre os pontos P1 e P2 √© de: %f",distancia);
 	return 0;
 }
