@@ -7,7 +7,7 @@ int main(void){
 	setlocale(LC_ALL,"portuguese");
 	int preco,qtd,total,total1;
 	
-	printf("Insira o preço do produto:R$ ");
+	printf("Insira o preÃ§o do produto:R$ ");
 	scanf("%d",&preco);
 	printf("Insira a quantidade: ");
 	scanf("%d",&qtd);
@@ -15,11 +15,11 @@ int main(void){
 	total=preco*qtd;
 	
 	if(total<100){
-		printf("\nVocê recebeu um desconto de 5%c",37);
+		printf("\nVocÃª recebeu um desconto de 5%c",37);
 		total=total-(total*0.05);
 	}
 	if(total>=100){
-	printf("\nVocê recebeu um desconto de 10%c",37);
+	printf("\nVocÃª recebeu um desconto de 10%c",37);
 	total=total-(total*0.1);;
 	}
 	
