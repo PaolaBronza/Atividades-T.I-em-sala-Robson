@@ -6,18 +6,18 @@ int main (void){
 	setlocale(LC_ALL,"portuguese");
 	int num,num2,num3;
 	
-	printf("Digite um número de 1 a 10: ");
+	printf("Digite um nÃºmero de 1 a 10: ");
 	scanf("%d",&num);
-	printf("Digite um número de 1 a 10: ");
+	printf("Digite um nÃºmero de 1 a 10: ");
 	scanf("%d",&num2);
-	printf("Digite um número de 1 a 10: ");
+	printf("Digite um nÃºmero de 1 a 10: ");
 	scanf("%d",&num3);
 	
 	if(num==num2==num3){
-		printf("todos os números são iguais.");
+		printf("todos os nÃºmeros sÃ£o iguais.");
 	}
 	else if(num!=num2!=num3){
-		printf("todos os números são diferentes.");
+		printf("todos os nÃºmeros sÃ£o diferentes.");
 	}
 	
 	if(num>num2>num3){
