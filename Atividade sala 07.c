@@ -12,9 +12,9 @@ int main(void){
 	scanf("%d", &num2);
 	
 	if((num >= 18) && (num2 >= 2)){
-		printf("Você pode dirigir");	
+		printf("VocÃª pode dirigir");	
 	}else{
-		printf("Você não atende aos requisitos para dirigir");
+		printf("VocÃª nÃ£o atende aos requisitos para dirigir");
 	}
 	return 0;
 }
